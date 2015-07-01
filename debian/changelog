@@ -1,0 +1,5 @@
+openipmi (99999:2.0.20-rc2) qcluster; urgency=medium
+
+  * Initial release.
+
+ -- Noel Burton-Krahn <noel@burton-krahn.com>  Thu, 01 Oct 2015 09:39:10 -0700

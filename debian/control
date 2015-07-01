@@ -1,0 +1,15 @@
+Source: openipmi
+Maintainer: Noel Burton-Krahn <noel@pistoncloud.com>
+Section: networking
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9)
+
+Package: openipmi
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Conflicts: libopenipmi0
+Replaces: libopenipmi0
+Provides: libopenipmi0
+Description: IPMI library and simulator
+ https://github.com/noelbk/openipmi forked from http://git.code.sf.net/p/openipmi/code 

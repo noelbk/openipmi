@@ -1,0 +1,2 @@
+shlibs:Depends=libc6 (>= 2.17), libglib2.0-0 (>= 2.31.8), libncurses5 (>= 5.5-5~), libpopt0 (>= 1.14), libssl1.0.0 (>= 1.0.0), libtinfo5, openipmi
+misc:Depends=
