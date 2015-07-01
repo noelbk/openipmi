@@ -15,6 +15,6 @@ noinst_HEADERS = wiw.h
 
 EXTRA_DIST = main.sdrs board.sdrs fan.sdrs lan.conf netsrvc lancontrol \
 	busybox-1.18.4.config interfaces ntp.conf marvell_bmc.config \
-	S90ast1300 SystemInfo TODO BuildingAndConfiguring.tex \
+	S90ast1300 SystemInfo \
 	Build_Marvell_BMC.sh Install_Marvell_BMC.sh marvell_node.emu \
 	marvell.emu
