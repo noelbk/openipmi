@@ -597,8 +597,8 @@ isim_log(sys_data_t *sys, int logtype, msg_t *msg, char *format, va_list ap,
 		       msg->rs_addr, msg->rs_lun, msg->rq_addr, msg->rq_lun,
 		       msg->rq_seq);
 #undef mformat
-	for (i = 0; i < msg->len; i++)
-	    pos += sprintf(str + pos, " %2.2x", msg->data[i]);
+	//for (i = 0; i < msg->len; i++)
+	//    pos += sprintf(str + pos, " %2.2x", msg->data[i]);
     } else {
 	str = malloc(len + 1);
 	if (!str)
