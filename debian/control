@@ -3,7 +3,7 @@ Maintainer: Noel Burton-Krahn <noel@pistoncloud.com>
 Section: networking
 Priority: optional
 Standards-Version: 3.9.2
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>= 9), libpopt-dev, autoconf, automake, libtool
 
 Package: openipmi
 Architecture: amd64
